@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 //primeNg
 import { ButtonModule } from 'primeng/button';
 import { CardModule } from 'primeng/card';
+import { FieldsetModule } from 'primeng/fieldset';
 import { InputTextModule } from 'primeng/inputtext';
 import { MenubarModule } from 'primeng/menubar';
 
@@ -18,7 +19,8 @@ import { MenubarModule } from 'primeng/menubar';
     ButtonModule,
     CardModule,
     InputTextModule,
-    MenubarModule
+    MenubarModule,
+    FieldsetModule
   ]
 })
 export class PrimeNgModule { }
